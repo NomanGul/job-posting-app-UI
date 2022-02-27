@@ -10,6 +10,13 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: const SignUp(),
         theme: ThemeData(
-            fontFamily: "Poppins", backgroundColor: const Color(0xFF191720)));
+            fontFamily: "Poppins",
+            brightness: Brightness.dark,
+            scaffoldBackgroundColor: const Color(0xFF191720),
+            appBarTheme: const AppBarTheme(
+                backgroundColor: Color(0xFF191720),
+                elevation: 0,
+                toolbarHeight: 120,
+                centerTitle: false)));
   }
 }

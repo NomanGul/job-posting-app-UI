@@ -2,5 +2,5 @@ import 'package:flutter/material.dart';
 import 'package:job_post_ui/base/app.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
